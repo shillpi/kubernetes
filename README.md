@@ -33,8 +33,11 @@
 12. List a particular replication controller
 > kubectl get rc "rc-name"
 
-13. You can also get a detailed output of your pod by using the command:
+13. List a particular RC:
+> kubectl get replicationcontroller "rc-name"
+
+14. You can also get a detailed output of your pod by using the command:
 > kubectl describe pods
 
-14. View the deployment with the command:
+15. View the deployment with the command:
 > kubectl get deployments
