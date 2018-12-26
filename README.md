@@ -57,3 +57,6 @@
 
 3. Delete pods and services with label name=myLabel
 > kubectl delete pods,services -l name=myLabel  
+
+4. Delete pods and services, including uninitialized ones, with label name=myLabel
+> kubectl delete pods,services -l name=myLabel --include-uninitialized
