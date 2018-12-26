@@ -19,7 +19,7 @@
 > kubectl config use-context prod
 
 7. Get pods in a particular namespace
-kubectl -n “namespace name” get pods
+> kubectl -n “namespace name” get pods
 
 8. kubectl -n “namespace name” get pods -w
 
