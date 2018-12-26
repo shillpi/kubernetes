@@ -12,7 +12,7 @@
 4. List the current namespaces in a cluster: 
   > kubectl get namespaces
 
-5. List all pods in ps output format:
+5. List all pods in current namespace in ps output format:
 > kubectl get pods
 
 6. kubectl -n “namespace name” get pods
