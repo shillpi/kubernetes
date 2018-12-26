@@ -15,30 +15,34 @@
 5. List all pods in current namespace in ps output format:
 > kubectl get pods
 
-6. kubectl -n “namespace name” get pods
+6. Switch to the production namespace:
+> kubectl config use-context prod
 
-7. kubectl -n “namespace name” get pods -w
+7. Get pods in a particular namespace
+kubectl -n “namespace name” get pods
 
-8. List all pods in all namespaces:
+8. kubectl -n “namespace name” get pods -w
+
+9. List all pods in all namespaces:
 > kubectl get pods --all-namespaces  
 
-9. List all pods in the namespace, with more details:
+10. List all pods in the namespace, with more details:
 > kubectl get pods -o wide         
 
-10. List all pods in the namespace, including uninitialized ones:
+11. List all pods in the namespace, including uninitialized ones:
 > kubectl get pods --include-uninitialized      
 
-11. List all services in the namespace:
+12. List all services in the namespace:
 > kubectl get services
 
-12. List a particular replication controller
+13. List a particular replication controller
 > kubectl get rc "rc-name"
 
-13. List a particular RC:
+14. List a particular RC:
 > kubectl get replicationcontroller "rc-name"
 
-14. You can also get a detailed output of your pod by using the command:
+15. You can also get a detailed output of your pod by using the command:
 > kubectl describe pods
 
-15. View the deployment with the command:
+16. View the deployment with the command:
 > kubectl get deployments
