@@ -54,3 +54,6 @@
 
 2. Delete pods and services with same names "baz" and "foo"
 > kubectl delete pod,service baz foo 
+
+3. Delete pods and services with label name=myLabel
+> kubectl delete pods,services -l name=myLabel  
