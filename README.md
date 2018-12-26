@@ -6,7 +6,8 @@ To install kubectl:
 To ensure the version you installed is sufficiently up-to-date:
 > kubectl version
 
-kubectl get nodes
+List the available nodes with the command:
+> kubectl get nodes
 
 kubectl get namespace
 
