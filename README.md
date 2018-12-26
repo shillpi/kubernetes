@@ -21,7 +21,10 @@ List all pods in all namespaces:
 > kubectl get pods --all-namespaces  
 
 List all pods in the namespace, with more details:
-> kubectl get pods -o wide                      
+> kubectl get pods -o wide         
+
+List all pods in the namespace, including uninitialized ones:
+> kubectl get pods --include-uninitialized      
 
 List all services in the namespace:
 > kubectl get services
