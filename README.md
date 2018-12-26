@@ -15,9 +15,9 @@
 
 6. kubectl -n “namespace name” get pods
 
-kubectl -n “namespace name” get pods -w
+7. kubectl -n “namespace name” get pods -w
 
-List all pods in all namespaces:
+8. List all pods in all namespaces:
 > kubectl get pods --all-namespaces  
 
 List all pods in the namespace, with more details:
