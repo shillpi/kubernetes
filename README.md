@@ -23,3 +23,6 @@ kubectl get rc
 
 You can also get a detailed output of your pod by using the command:
 > kubectl describe pods
+
+View the deployment with the command:
+> kubectl get deployments
