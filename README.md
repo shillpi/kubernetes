@@ -18,10 +18,11 @@
 6. Switch to the production namespace:
 > kubectl config use-context prod
 
-7. Get pods in a particular namespace
+7. Get pods in a particular namespace:
 > kubectl -n “namespace name” get pods
 
-8. kubectl -n “namespace name” get pods -w
+8. Get pods in a particular namespace with more details:
+> kubectl -n “namespace name” get pods -w
 
 9. List all pods in all namespaces:
 > kubectl get pods --all-namespaces  
