@@ -47,3 +47,7 @@
 
 16. View the deployment with the command:
 > kubectl get deployments
+
+##Deleting Resources##
+1. Delete a pod using the type and name specified in pod.json:
+> kubectl delete -f ./pod.json 
