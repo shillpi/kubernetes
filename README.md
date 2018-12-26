@@ -17,7 +17,8 @@ kubectl -n “namespace name” get pods
 
 kubectl -n “namespace name” get pods -w
 
-kubectl get services
+List all services in the namespace:
+> kubectl get services
 
 kubectl get rc
 
