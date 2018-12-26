@@ -48,6 +48,9 @@
 16. View the deployment with the command:
 > kubectl get deployments
 
+17. List Services Sorted by Name:
+> kubectl get services --sort-by=.metadata.name
+
 ## Deleting Resources ##
 1. Delete a pod using the type and name specified in pod.json:
 > kubectl delete -f ./pod.json 
