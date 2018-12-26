@@ -30,7 +30,8 @@
 11. List all services in the namespace:
 > kubectl get services
 
-12. kubectl get rc
+12. List a particular replication controller
+> kubectl get rc <rc-name> 
 
 13. You can also get a detailed output of your pod by using the command:
 > kubectl describe pods
