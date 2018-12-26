@@ -1,15 +1,16 @@
 # Kubernetes basic commands
 
 1. To install kubectl:
-> brew install kubernetes-cli
+  > brew install kubernetes-cli
 
 2. To ensure the version you installed is sufficiently up-to-date:
-> kubectl version
+  > kubectl version
 
 3. List the available nodes with the command:
-> kubectl get nodes
+  > kubectl get nodes
 
-4. kubectl get namespace
+4. List the current namespaces in a cluster: 
+  > kubectl get namespaces
 
 5. kubectl get pods
 
